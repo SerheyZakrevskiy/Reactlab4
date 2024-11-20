@@ -1,0 +1,78 @@
+.kozelets-container {
+  max-width: 768px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+.header-details {
+  display: flex;
+  justify-content: center;
+}
+
+.header-details p {
+  font-size: 14px;
+  color: #666;
+}
+
+img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.description,
+.article {
+  margin-top: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  color: #555;
+}
+
+.description p,
+.article p {
+  color: #444;
+  line-height: 1.6;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.header h1 {
+  color: red;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #ccc;
+}
